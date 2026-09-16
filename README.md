@@ -79,8 +79,6 @@ hydra -l msfadmin -P /usr/share/wordlists/metasploit/unix_passwords.txt -t 4 ssh
 
 ## Troubleshooting
 
-> I file in `configs/` contengono solo le righe/blocchi aggiunti ai file di configurazione esistenti, non le configurazioni complete dei rispettivi sistemi.
-
 ### A. Incompatibilità algoritmi SSH (Kali → Metasploitable)
 
 Hydra fallisce con:
