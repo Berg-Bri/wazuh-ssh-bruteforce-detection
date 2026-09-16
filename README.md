@@ -15,7 +15,7 @@ L'obiettivo non è eseguire un attacco sofisticato, ma dimostrare concretamente 
 ```text
 ┌─────────────────────┐         ┌──────────────────────┐
 │   Kali Linux        │         │  Metasploitable 2    │
-│   (Red Team)        │ ──────▶ │  (Target)            │
+│   (Red Team)        │ ──────> │  (Target)            │
 │   192.168.1.X       │  SSH    │  192.168.1.60        │
 │   hydra             │  brute  │  sysklogd            │
 └─────────────────────┘  force  └───────────┬──────────┘
